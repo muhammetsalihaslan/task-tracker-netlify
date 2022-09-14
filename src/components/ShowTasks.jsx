@@ -32,7 +32,7 @@ const ShowTasks = ({ tasks, setTasks}) => {
   return(
     
     tasks?.map((item) => {
-      const {id, task, day, isDone} = item;
+      const {id, task, day} = item;
       return ( 
         <div className="container">
           <div key={id} className="btn-tasks" onClick={handleDone} >
