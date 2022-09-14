@@ -1,0 +1,86 @@
+.btn{
+  border: none; 
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  font: size 0.9rem;
+  padding:1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+
+}
+
+.header{
+    text-align: center;
+    margin:1rem;
+
+}
+
+.form-control{
+    margin: 20px 0;
+}
+
+.form-control label{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.form-control input{
+    width: 50%;
+    height:30px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    /* border: none; */
+}
+
+.btn-submit{
+    /* display :block; */
+    width: 50%;
+    background-color: purple;
+    margin:2rem 0;
+}
+.st{
+    text-align: center;
+}
+
+.show{
+    width: 50%;
+    height:30px;
+    padding:1rem;
+    font-size:1rem;
+    border-radius: 5px;
+    
+
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+   
+    
+    
+}
+
+.btn-tasks{
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+/* .btn-delete{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+} */
+
+.task-area{
+    width: 90%;
+}
